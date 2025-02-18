@@ -14,5 +14,9 @@ int main(){
     printf("Digite a terceira nota: ");
     scanf("%f", &nota3);
 
+    media = (nota1 + nota2 + nota3) / 3;
+
+    printf("\nA sua média foi:  %.1f\n", media);
+
     return 0;
 }
